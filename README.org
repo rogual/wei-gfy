@@ -1,0 +1,23 @@
+This is a Firefox extension that implements the Google Web Environment Integrity API, except that instead of returning an attestation token, it returns the
+Uint8Array [71, 111, 32, 102, 117, 99, 107, 32, 121, 111, 117, 114, 115, 101, 108, 118, 101, 115, 46].
+
+* Installation
+
+- Go to about:debugging
+- Click "This Firefox"
+- Click "Load Temporary Add-on"
+- Choose the =manifest.json= file.
+
+* FAQ
+
+** How will this help?
+
+It won't.
+
+** This isn't to spec
+
+Returning broken responses to APIs you don't agree with is an [[https://security.stackexchange.com/questions/8489/should-anyone-support-implement-p3p-policies-do-they-matter-are-they-legally][established Google policy]].
+
+** WEI is good
+
+[71, 111, 32, 102, 117, 99, 107, 32, 121, 111, 117, 114, 115, 101, 108, 118, 101, 115, 46].
